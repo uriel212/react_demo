@@ -1,8 +1,9 @@
-import MainContent from './MainContent';
+import JSXRules from './Components/JSXRules';
+// import MainContent from './MainContent';
 
 const App = () => {
   return (
-    <MainContent/>
+    <JSXRules/> 
   );
 }
 
