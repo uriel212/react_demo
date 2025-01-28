@@ -3,7 +3,7 @@
 // import JSXRules from './Components/JSXRules';
 // import MainContent from './MainContent';
 
-import ExerciseLists from "./Components/ExerciseLists";
+import ExerciseLists from "./Components/Exercises/ExerciseLists";
 // import Lists from "./Components/Lists";
 
 const App = () => {
