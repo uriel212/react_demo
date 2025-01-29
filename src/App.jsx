@@ -3,13 +3,16 @@
 // import JSXRules from './Components/JSXRules';
 // import MainContent from './MainContent';
 
-import ExerciseLists from "./Components/Exercises/ExerciseLists";
+import ProductsProps from "./Components/Exercises/ProductsProps";
+import Props from "./Components/Teaching/Props";
+
+// import ExerciseLists from "./Components/Exercises/ExerciseLists";
 // import Lists from "./Components/Lists";
 
 const App = () => {
   return (
     <>
-      <ExerciseLists />
+      <ProductsProps name="Dark Souls cheat" price="$1.99" />
     </>
   );
 }
