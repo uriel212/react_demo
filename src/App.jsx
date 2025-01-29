@@ -5,6 +5,7 @@
 
 // import ProductsProps from "./Components/Exercises/ProductsProps";
 import CartConditional from "./Components/Exercises/CartConditional";
+import SessionValidated from "./Components/Exercises/SessionValidated";
 // import Childs from "./Components/Teaching/Childs";
 // import ConditionalRendering from "./Components/Teaching/ConditionalRendering";
 // import Props from "./Components/Teaching/Props";
@@ -21,7 +22,8 @@ const App = () => {
         <p>This is my content to pass from Parent to child component</p>
       </Childs> */}
       {/* <ConditionalRendering isTrue={false} /> */}
-      <CartConditional items={["Arroz", "Frijoles", "Aceite"]} />
+      {/* <CartConditional items={["Arroz", "Frijoles", "Aceite"]} /> */}
+      <SessionValidated isAdmin={false} />
     </>
   );
 }
