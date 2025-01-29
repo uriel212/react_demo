@@ -4,7 +4,9 @@
 // import MainContent from './MainContent';
 
 // import ProductsProps from "./Components/Exercises/ProductsProps";
-import Childs from "./Components/Teaching/Childs";
+import CartConditional from "./Components/Exercises/CartConditional";
+// import Childs from "./Components/Teaching/Childs";
+// import ConditionalRendering from "./Components/Teaching/ConditionalRendering";
 // import Props from "./Components/Teaching/Props";
 
 // import ExerciseLists from "./Components/Exercises/ExerciseLists";
@@ -14,10 +16,12 @@ const App = () => {
   return (
     <>
       {/* <ProductsProps name="Dark Souls cheat" price="$1.99" /> PROPS Explanation */} 
-      <Childs>
+      {/* <Childs>
         <h1>Childs</h1>
         <p>This is my content to pass from Parent to child component</p>
-      </Childs>
+      </Childs> */}
+      {/* <ConditionalRendering isTrue={false} /> */}
+      <CartConditional items={["Arroz", "Frijoles", "Aceite"]} />
     </>
   );
 }
